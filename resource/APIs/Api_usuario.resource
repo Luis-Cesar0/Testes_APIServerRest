@@ -26,4 +26,4 @@ Quando o usuario estiver pronto,cadastre na ServeRest
 E confiro se o usuario foi cadastrado com sucesso
     Log    ${RESPOSTA}
     Dictionary Should Contain Item    ${RESPOSTA}    message  Cadastro realizado com sucesso
-    Dictionary Should Contain Key    ${RESPOSTA}    key
+    Dictionary Should Contain Key    ${RESPOSTA}    _id
